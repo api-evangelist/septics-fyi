@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Septics is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://septics.fyi
+Septics provides a directory and matching service for septic pumping, inspection, and repair companies across North America. Users can submit service requests, browse listings by location, and access guides on septic system maintenance. The platform aggregates service providers, offering searchable filters by country, region, city, and category, and supplies detailed guides and PDFs on septic system care.
+
+**Areas:** Septic Installation · Septic Inspection · Septic Pumping · Septic Repair · Aerobic System Maintenance · Onsite Wastewater
+
+## Septics on APIs.io
+
+Everything profiled for Septics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/septics-fyi/](https://apis.io/providers/septics-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Septics Academy API](https://apis.io/apis/septics-fyi/septics-fyi-academy-api/) — The Academy API from Septics — 2 operation(s) for academy.
+- [Septics Admin API](https://apis.io/apis/septics-fyi/septics-fyi-admin-api/) — The Admin API from Septics — 166 operation(s) for admin.
+- [Septics Categories API](https://apis.io/apis/septics-fyi/septics-fyi-categories-api/) — The Categories API from Septics — 1 operation(s) for categories.
+- [Septics Certificates API](https://apis.io/apis/septics-fyi/septics-fyi-certificates-api/) — The Certificates API from Septics — 1 operation(s) for certificates.
+- [Septics Listings API](https://apis.io/apis/septics-fyi/septics-fyi-listings-api/) — The Listings API from Septics — 2 operation(s) for listings.
+- [Septics Places API](https://apis.io/apis/septics-fyi/septics-fyi-places-api/) — The Places API from Septics — 1 operation(s) for places.
+- [Septics Product Categories API](https://apis.io/apis/septics-fyi/septics-fyi-product-categories-api/) — The Product Categories API from Septics — 1 operation(s) for product categories.
+- [Septics Products API](https://apis.io/apis/septics-fyi/septics-fyi-products-api/) — The Products API from Septics — 2 operation(s) for products.
+- [Septics Sources API](https://apis.io/apis/septics-fyi/septics-fyi-sources-api/) — The Sources API from Septics — 1 operation(s) for sources.
+- [Septics Sponsor API](https://apis.io/apis/septics-fyi/septics-fyi-sponsor-api/) — The Sponsor API from Septics — 2 operation(s) for sponsor.
+- [Septics Stats API](https://apis.io/apis/septics-fyi/septics-fyi-stats-api/) — The Stats API from Septics — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Septics Agentic Access](https://apis.io/agentic-access/septics-fyi/septics-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/septics-fyi/septics-fyi-certificate/)
+- [Course](https://apis.io/schemas/septics-fyi/septics-fyi-course/)
+- [CourseDetail](https://apis.io/schemas/septics-fyi/septics-fyi-course-detail/)
+- [Listing](https://apis.io/schemas/septics-fyi/septics-fyi-listing/)
+- [ListingItem](https://apis.io/schemas/septics-fyi/septics-fyi-listing-item/)
+- [Product](https://apis.io/schemas/septics-fyi/septics-fyi-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Septics Fyi Context](https://apis.io/jsonld/septics-fyi/septics-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Septics API Rules](https://apis.io/rules/septics-fyi/septics-fyi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Septics Domain Security](https://apis.io/security/septics-fyi/septics-fyi-domain-security/)
+- [Septics Vulnerability Disclosure](https://apis.io/security/septics-fyi/septics-fyi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://septics.fyi)
+- [Documentation](https://septics.fyi/developers)
+- [API reference](https://septics.fyi/api/v1/openapi.json)
+- [Support](https://septics.fyi/support)
+- [Terms of service](https://septics.fyi/terms)
+- [Privacy policy](https://septics.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.0** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/septics-fyi/](https://apis.io/providers/septics-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Septics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/septics-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
